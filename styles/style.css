@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* button */
+.bg-button {
+    background-color: #B68C5A !important;
+    color: #FFFFFF !important;
+}
+
+nav {
+    height: 75px;
+}
+
+.banner {
+    background-image: url("../images/banner.png");
+    height: calc(100vh - 75px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.font-family {
+    font-family: EB Garamond;
+}
+
+.slider-caption {
+    position: absolute;
+    bottom: 10%;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* media queries */
+@media only screen and (max-width: 992px) {
+    .bg-lg-color {
+        background-color: rgba(0, 0, 0, 0.605);
+        border-radius: 8px;
+    }
+
+    ul li a {
+        color: #FFFFFF !important;
+    }
+}
